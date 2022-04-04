@@ -1,0 +1,315 @@
+
+
+/*css variables*/
+@import url(./partials/_variables.css);
+
+/* global styling */
+
+@import url(./partials/_global.css);
+
+/*start navigation*/
+
+
+
+.navbar-brand{
+    padding: 0 10rem 0 5rem;
+
+}
+
+.header_area.main-menu.navbar.navbar-brand{
+    padding:0 2rem 0 2rem;
+}
+
+.header_area.main-menu.navbar{
+    padding: 1rem 20rem;
+}
+
+.navbar-nav{
+    font-family:'Roboto';
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-right: 20rem;
+    color: var(--title-color);
+    background-color: #fbd0f5;
+}
+
+.header_area.main-menu.navbar-nav.active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area.main-menu.navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*end navigation */
+
+/*45:05 부터*/
+
+/* Banner Area*/
+
+.site-main .site-banner{
+    background: url(../img/background.png) no-repeat;
+    
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 15%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+   font-size:3rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size:1.5rem;
+ }
+
+ .site-main .site-banner .banner-image img{
+    padding: 3rem 0;
+    border-radius: 50%;
+
+ }
+/* End Banner Area*/
+
+/* Start About Area*/
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+
+}
+
+.site-main .about-area .about-title h2 span{
+    display: block;
+    letter-spacing: 10px;
+}
+
+.site-main .about-area .about-title .paragraph p{
+    padding: .4rem 0; 
+}
+
+.single-craft img{
+    width: 100px;
+}
+/* End About Area*/
+
+
+
+/* Start craft Area */
+
+.site-main .craft-area{
+    padding: 1rem 10rem;
+    margin-bottom:4rem;
+}
+
+.site-main .craft-area .first-row .col-lg-4{
+    display: inline-block;
+    justify-content: center;
+    
+
+}
+
+.site-main .craft-area .first-row .col-lg-4 >.single-craft{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 0.5rem 0rem;
+    margin :0.9rem 0;
+    width: 180px;
+    height: auto;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.site-main .craft-area .first-row .col-lg-4 .single-craft img{
+    width: 50%;
+
+
+}
+
+.site-main .craft-area .first-row .col-lg-4 .single-craft:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.05);
+
+}
+
+.site-main .craft-area .first-row .col-lg-4 .single-craft:hover img{
+    filter: brightness(1.15);
+
+}
+
+.site-main .craft-area .other-area span{
+    display: block;
+
+}
+
+.site-main .craft-area .other-area .years-area{
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    width: 18rem;
+    height: 13rem;
+    padding-left: 8rem;
+    position: relative;
+    
+}
+
+.site-main .craft-area .other-area .bg-panel{
+    position: relative;
+    left: 190px, top 0%;
+    background-color: #eec2c2;
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    margin-top: -200px;
+    z-index:-1;
+
+}
+
+.site-main .craft-area .other-area .years{
+    font: normal bold 84px/40px 'Roboto';
+    color: var(--text-color);
+    z-index: 2;
+}
+
+.site-main .craft-area .other-area h2 span{
+    font: normal 600 22px/30px 'Roboto';
+
+}
+
+.site-main .craft-area .other-area .call-area{
+    padding-left: 11rem;
+    padding-top: 4rem;
+}
+
+/* End craft Area */
+
+/* Start Services Area*/
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main .services-area .services{
+    background: var(--primary-color2);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .services-area .services-list .row .col-lg-3 .services-img img{
+    width: 200px;
+}
+
+/* End Services Area*/
+
+
+/*Project Area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border:none;
+    font: normal 500 16px/130px 'Roboto';
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+    font-family: 'Roboto';
+}
+.site-main .project-area .grid .our-project> .title h4{
+    font:normal 700 25px/12px 'Roboto';
+
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px gray);
+}
+
+/* End Project Area */
+
+
+/*Subscribe Me Area*/
+
+.site-main .subscribe-me-area .subscribe{
+    background-color: var(--primary-color);
+    padding: 10rem;
+    margin: 3rem auto;
+
+}
+
+.site-main .subscribe-me-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/30px 'Roboto';
+    color:var(--text-color);
+
+}
+
+.site-main .subscribe-me-area .subscribe .subscribe-title p{
+    color: var(--title-color);
+    padding: 1rem 4rem;
+}
+
+.site-main .subscribe-me-area .subscribe form .input-textbox{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid beige;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/20px 'Roboto';
+}
+
+.site-main .subscribe-me-area .subscribe form .input-textbox input::placeholder{
+    color: black;
+}
+
+.site-main .subscribe-me-area .subscribe form .btn-submit button{
+    background:var(--gradient-color);
+    color: black;
+    padding: .7rem 2rem;
+    margin-top: 1.4rem;
+}
+/*End subscribe me area */
+
+/*Footer area*/
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: #ffcef3;
+}
+
+footer.footer-area .social h5{
+    font:normal 500 23px/30px 'Roboto';
+}
+
+footer.footer-area .social a>i{
+    font-size:22px;
+    padding: 2rem;
+    color:var(--border-color);
+}
+
+footer.footer-area .social a>i:hover{
+    color: #e27393;
+}
+
+/*2:40:39*/
